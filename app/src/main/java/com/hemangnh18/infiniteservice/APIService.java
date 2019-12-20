@@ -11,7 +11,7 @@ public interface APIService {
 
             {
                     "Content-Type:application/json",
-                    "Authorization:key=AAAAMtbu3zI:APA91bH3pSu4UeoPgeOPq-zkcAm68V0Rr6tLT7qIF8J66N8TqrY0xtNYJynlkEbzh2pHhJ-KzhaIiEbA289TTwIwNbetLFFOaRmPXHuJoP1uxF7y3rlWu1VJ5R-AA5OW6tMryq8T9VP3"
+                    "Authorization:key=AAAAMtbu3zI:------------------AUTHORIZATION-KEY-OF-FIREBASE-PROJECT----------------------------"
             }
     )
 
