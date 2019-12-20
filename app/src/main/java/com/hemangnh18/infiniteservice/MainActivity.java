@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Data data = new Data("",R.drawable.ic_launcher_background,"Hemang: HELOOOOOO","New Message","");
-                Sender sender = new Sender(data, "c_tBgkKI1Ng:APA91bFR8mbYf6Igl7rzdL_N6zxCbXfZy35KLSJGOcD3inQAPLJRE0NkS3dOJ0p611F2kWzLtgzFUXkCSBe7C1paAGRjWxCnBGdU6rxETfrKmU5lUT7pge0VonK9drjmYzXFWr8bnkp0");
+                Sender sender = new Sender(data, "-----------TOKEN-OF-DEVICE-IN-WHICH-YOU-WANT-TO-SEND-MESSAGE----------");
                 apiService.sendNotification(sender).enqueue(new Callback<MyResponse>() {
                     @Override
                     public void onResponse(Call<MyResponse> call, Response<MyResponse> response) {
